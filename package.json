@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/GuoLiBin6/wechat-message-push#readme",
   "dependencies": {
-    "egg": "^2.30.0"
+    "egg": "^2.30.0",
+    "egg-view-nunjucks": "^2.3.0"
   },
   "devDependencies": {
     "egg-bin": "^4.16.4"
