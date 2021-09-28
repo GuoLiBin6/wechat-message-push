@@ -1,0 +1,23 @@
+{
+  "name": "wechat-message-push",
+  "version": "1.0.0",
+  "description": "Push message to WeChat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuoLiBin6/wechat-message-push.git"
+  },
+  "keywords": [
+    "eggjs",
+    "wechat"
+  ],
+  "author": "GuoLiBin6",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuoLiBin6/wechat-message-push/issues"
+  },
+  "homepage": "https://github.com/GuoLiBin6/wechat-message-push#readme"
+}
