@@ -7,3 +7,9 @@ exports.view = {
         '.tpl': 'nunjucks',
     },
 };
+
+// 添加news配置项
+exports.news = {
+    pageSize: 5,
+    serverUrl: 'https://hacker-news.firebaseio.com/v0',
+};
