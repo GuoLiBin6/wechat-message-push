@@ -19,6 +19,9 @@ exports.middleware = ['robot'];
 
 // robot's configurations
 exports.robot = {
-    ua: [/Baiduspider/i]
+    ua: [
+        /curl/i,
+        /Baiduspider/i
+    ]
 };
 // 查看效果 curl http://localhost:7001/news -A "Baiduspider"
