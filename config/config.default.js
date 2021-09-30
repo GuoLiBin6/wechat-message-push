@@ -13,3 +13,12 @@ exports.news = {
     pageSize: 5,
     serverUrl: 'https://hacker-news.firebaseio.com/v0',
 };
+
+// 添加 middleware robot
+exports.middleware = ['robot'];
+
+// robot's configurations
+exports.robot = {
+    ua: [/Baiduspider/i]
+};
+// 查看效果 curl http://localhost:7001/news -A "Baiduspider"
