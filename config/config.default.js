@@ -1,4 +1,4 @@
-exports.keys = '自己的Cookie安全字符串'
+exports.keys = 'glb-tencent-token'
 
 // 添加view配置
 exports.view = {
