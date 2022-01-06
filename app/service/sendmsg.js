@@ -39,7 +39,7 @@ class SendMsgService extends Service {
     // 获取Access Token
     async getToken() {
         const { app } = this;
-        const url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=' + app.config.weChat.appld + '&secret=' + app.config.weChat.secret;
+        const url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=' + app.config.weChat.appId + '&secret=' + app.config.weChat.secret;
         const result = await this.ctx.curl(url, {
             method: 'get',
             dataType: 'json',

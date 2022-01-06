@@ -25,3 +25,10 @@ exports.robot = {
     ]
 };
 // 查看效果 curl http://localhost:7001/news -A "Baiduspider"
+
+exports.weChat = {
+    appId: 'your-app-id',
+    secret: 'your-secret',
+    users: ['someone-openid'],
+    daily: 'tTtUTEma5nYDdl-epRJbDl0iDJISjEOQVa_cbJirpWw'
+}

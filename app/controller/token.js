@@ -10,7 +10,6 @@ class TokenController extends Controller {
             const itemList = item.split('=')
             queryMap[itemList[0]] = itemList[1] || '';
         })
-        console.log(queryMap)
         this.ctx.body = queryMap['echostr'] || '';
     }
 }
