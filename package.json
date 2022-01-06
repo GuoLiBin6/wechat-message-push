@@ -6,7 +6,9 @@
   "scripts": {
     "test": "egg-bin test",
     "dev": "egg-bin dev --port=80",
-    "cov": "egg-bin cov"
+    "cov": "egg-bin cov",
+    "start": "egg-scripts start --daemon --port=80",
+    "stop": "egg-scripts stop"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/GuoLiBin6/wechat-message-push#readme",
   "dependencies": {
     "egg": "^2.30.0",
+    "egg-scripts": "^2.15.2",
     "egg-view-nunjucks": "^2.3.0",
     "moment": "^2.29.1"
   },
