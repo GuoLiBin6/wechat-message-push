@@ -32,3 +32,17 @@ exports.weChat = {
     users: ['someone-openid'],
     daily: 'tTtUTEma5nYDdl-epRJbDl0iDJISjEOQVa_cbJirpWw'
 }
+
+  // 天气接口配置高德api
+exports.weather = {
+    ak: '******',
+    code: {
+      深泽: 130128,
+      石家庄:	130100,
+      北京:	110100,
+    },
+};
+
+exports.time = {
+    meet: '2021-04-05'
+}
