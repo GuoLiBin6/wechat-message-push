@@ -13,8 +13,7 @@ class SendMsgService extends Service {
         const users = app.config.weChat.users;
         const promise = users.map(id => {
             ctx.logger.info('------------开始每日发送------------');
-            data.touser = id;
-            return this.toWechat(token, data);
+            return this.toWechat(token, Object.assign({}, data, {touser: id}));
         });
         const results = await Promise.all(promise);
         ctx.logger.info('----------结束发送每日提醒结果')

@@ -7,7 +7,7 @@
     "test": "egg-bin test",
     "dev": "egg-bin dev --port=80",
     "cov": "egg-bin cov",
-    "start": "egg-scripts start --daemon --port=80",
+    "start": "egg-scripts start --daemon --port=80 --workers=1",
     "stop": "egg-scripts stop"
   },
   "repository": {
