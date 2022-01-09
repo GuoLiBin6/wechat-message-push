@@ -1,6 +1,6 @@
-# WeChat Message Push
+# 微信消息推送
 
-微信消息推送测试Repo
+实现每日向固定的人推送一条暖心消息
 
 ## 环境准备
 
@@ -29,6 +29,10 @@ open http://localhost:7001
 ```
 npm test
 ```
+
+## 文档
+
+实现思路与踩坑注意文档详见 [wiki](https://github.com/GuoLiBin6/wechat-message-push/wiki/1.-%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D)
 
 ## 后记
 
